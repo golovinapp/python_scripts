@@ -1,3 +1,11 @@
+# This Python script uses the yt-dlp library to download videos from YouTube. Key features include:
+
+# User Input: Prompts the user to enter a YouTube video link.
+# High-Quality Download: Downloads the video in the best available quality (combining video and audio streams).
+# Customizable Path: Saves the downloaded video to a specified directory (C:\tmp by default).
+# Error Handling: Provides feedback in case of errors during the download process.
+# The script is simple to use and ensures that videos are saved efficiently while offering clear feedback to the user. Perfect for quick, high-quality YouTube video downloads!
+
 import os
 from yt_dlp import YoutubeDL
 
